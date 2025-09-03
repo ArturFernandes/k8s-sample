@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: it-depends-deployment
+  namespace: my-web-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: it-depends
+  template:
+    metadata:
+      labels:
+        app: it-depends
+    spec:
+      containers:
+      - name: it-depends-app
+        image: aguimara/it_depends:v1.0.0
+        ports:
+        - containerPort: 5000

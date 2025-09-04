@@ -11,8 +11,7 @@ The environment consists of:
 - **NGINX Ingress Controller**: Manages external traffic, routing requests to the correct services within the cluster.
 - **Sealed Secrets**: Enables storing secrets (like TLS certificates) in an encrypted form safely in a public Git repository.
 
-## 📹 Video Tutorial
-For a visual walkthrough of this setup, check out my tutorial video:
+## 📹 Video Example:
 
 https://github.com/user-attachments/assets/b8379721-2c56-41de-acd2-f5c084794a70
 

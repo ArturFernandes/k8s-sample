@@ -14,7 +14,7 @@ The environment consists of:
 ## 📹 Video Tutorial
 For a visual walkthrough of this setup, check out my tutorial video:
 
-https://user-images.githubusercontent.com/YOUR_USER_ID/k8s-app/assets/docs/tutorial.mp4
+https://github.com/user-attachments/assets/b8379721-2c56-41de-acd2-f5c084794a70
 
 > **Note**: The video will automatically play when viewing this README on GitHub. If you're viewing this documentation elsewhere, you can find the video in the `docs` folder.
 

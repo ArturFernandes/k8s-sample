@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: it-depends-deployment
-  namespace: my-web-app
+  namespace: it-depends
 spec:
   replicas: 1
   selector:

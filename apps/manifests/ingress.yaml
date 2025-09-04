@@ -2,17 +2,17 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: it-depends-ingress
-  namespace: my-web-app
+  namespace: it-depends
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - myapp.local
-    secretName: myapp-tls-secret
+    - it-depends.local
+    secretName: it-depends-tls-secret
   rules:
-  - host: myapp.local
+  - host: it-depends.local
     http:
       paths:
       - path: /
